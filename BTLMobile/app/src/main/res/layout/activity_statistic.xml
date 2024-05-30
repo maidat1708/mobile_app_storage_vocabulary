@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F5F5F5">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thống kê"
+        android:textSize="36sp"
+        android:textColor="#333333"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+
+    <TextView
+        android:id="@+id/textview_total_words"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Số từ đã thêm: 0"
+        android:textSize="18sp"
+        android:textColor="#333333"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/textview_background"
+        android:padding="10dp"/>
+
+    <!-- TextView for Nouns Added -->
+    <TextView
+        android:id="@+id/textview_nouns"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Số danh từ thêm được: 0"
+        android:textSize="18sp"
+        android:textColor="#333333"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/textview_background"
+        android:padding="10dp"/>
+
+    <!-- TextView for Verbs Added -->
+    <TextView
+        android:id="@+id/textview_verbs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Số động từ thêm được: 0"
+        android:textSize="18sp"
+        android:textColor="#333333"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/textview_background"
+        android:padding="10dp"/>
+
+    <!-- TextView for Adjectives Added -->
+    <TextView
+        android:id="@+id/textview_adjectives"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Số tính từ thêm được: 0"
+        android:textSize="18sp"
+        android:textColor="#333333"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/textview_background"
+        android:padding="10dp"/>
+
+    <!-- TextView for Prepositions Added -->
+    <TextView
+        android:id="@+id/textview_prepositions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Số giới từ thêm được: 0"
+        android:textSize="18sp"
+        android:textColor="#333333"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/textview_background"
+        android:padding="10dp"/>
+
+    <!-- TextView for Adverbs Added -->
+    <TextView
+        android:id="@+id/textview_adverbs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Số trạng từ thêm được: 0"
+        android:textSize="18sp"
+        android:textColor="#333333"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/textview_background"
+        android:padding="10dp"/>
+
+</LinearLayout>

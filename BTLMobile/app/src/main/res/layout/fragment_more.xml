@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#4043DFCF">
+
+    <!-- CardView for ImageView -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="24dp"
+        app:cardCornerRadius="150dp"
+        app:cardElevation="10dp">
+
+        <ImageView
+            android:id="@+id/imageview_more"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/img_more"
+            android:contentDescription="Sample Image"
+            android:scaleType="centerCrop" />
+
+    </androidx.cardview.widget.CardView>
+
+    <!-- TextView for Statistics -->
+    <TextView
+        android:id="@+id/textview_statistics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thống kê"
+        android:textSize="20sp"
+        android:textColor="#333333"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/textview_background"
+        android:padding="10dp"/>
+
+    <!-- TextView for Support -->
+    <TextView
+        android:id="@+id/textview_support"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hỗ trợ"
+        android:textSize="20sp"
+        android:textColor="#333333"
+        android:gravity="center"
+        android:background="@drawable/textview_background"
+        android:padding="10dp"/>
+    <Button
+        android:id="@+id/button_exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thoát"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:background="#FF5722"
+        android:layout_marginTop="24dp"
+        android:padding="12dp"
+        android:drawableStart="@drawable/ic_exit"
+        android:drawablePadding="8dp"/>
+
+</LinearLayout>
